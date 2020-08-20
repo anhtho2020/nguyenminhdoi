@@ -5,6 +5,7 @@ class clsConnet{
         mysqli_select_db($connect,"quanlyktx");
         mysqli_query($connect,"SET NAMES 'utf8'");
         return $connect;
+		//jgj
     }
 	//public static function DBConnect1(){
         	//$connect=mysql_connect("localhost", "qldtuser", "ctecsystem");
